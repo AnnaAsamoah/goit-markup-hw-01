@@ -11,14 +11,21 @@
     <!-- Шапка сайта --> 
     <Header>
         <section>
+            <!-- Лого --> 
+            <a href="" lang="en">WebStudio</a>
+            <!-- Навигация по странице -->   
+            <nav>
                 <ul>
-                    <li><nav>Студия</nav></li>
-                    <li><nav>Портфолио</nav></li>
-                    <li><nav>Контакты</nav></li>
+                    <li><a href="#studio">Студия</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
                 </ul>
+            </nav>
+            <!-- Контакты -->
                 <h3 hidden>Телефон и электронный адрес</h3>
-                <p><a href="mailto:info@devstudio.com"></a>info@devstudio.com</p>
-                <p><a href="tel:+380961111111:"></a>+38 096 111 11 11</p>
+                <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+                <p><a href="tel:+380961111111:">+38 096 111 11 11</a></p>
+               
         </section>
         
       
@@ -29,7 +36,7 @@
            <!-- Заглавие  -->
            <section>
                 <h2 hidden>Веб студия</h2>
-                <h1>Эффективные решения для вашего бизнеса</h1>
+                <h1 id="studio">Эффективные решения для вашего бизнеса</h1>
                 <button type="button">Заказать услугу</button>
            </section>
            <!-- Особенности -->
@@ -55,7 +62,7 @@
            </section>
            <!-- Чем мы занимаемся -->
            <section>
-               <h2>Чем мы занимаемся</h2>
+               <h2 id="portfolio">Чем мы занимаемся</h2>
                <ul>
                    <li>
                     <img src="./images/what-we-do-1.jpg" alt="Мужские руки верстают код" width="370" height="300">
@@ -98,8 +105,8 @@
      <!-- Подвал -->
      <footer>
          <section>
-             <h3 hidden>Наши контакты</h3>
-             <address>
+             <h3 hidden> Наши контакты</h3>
+             <address id="contacts">
                  <ul>
                      <li>г. Киев, пр-т Леси Украинки, 26</li>
                      <li><a href="mailto:info@example.com">info@example.com</a></li>
@@ -111,7 +118,7 @@
      </footer>
 
      
-    
+      
      
 </body>
 </html>
